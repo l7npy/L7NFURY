@@ -78,7 +78,7 @@ async def _(event):
     await event.edit("جارٍ...")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
-    await sedthon.send_file(event. chat_id, 'https://t.me/yyyyyy3w/3', caption='''FURY 𝗰𝗵𝗲𝗰𝗸𝗲𝗿 𝗶𝘀 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 
+    await event.edit(event. chat_id, 'https://t.me/yyyyyy3w/3', caption='''FURY 𝗰𝗵𝗲𝗰𝗸𝗲𝗿 𝗶𝘀 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 
 
 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 - @g_4_q
 
