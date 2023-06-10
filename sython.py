@@ -78,19 +78,15 @@ async def _(event):
     await event.edit("جارٍ...")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
-    await @sython.send_file(event. chat_id, 'https://t.me/yyyyyy3w/3',
-
-FURY 𝗰𝗵𝗲𝗰𝗸𝗲𝗿 𝗶𝘀 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 
+    await sedthon.send_file(event. chat_id, 'https://t.me/yyyyyy3w/3', caption='''FURY 𝗰𝗵𝗲𝗰𝗸𝗲𝗿 𝗶𝘀 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 
 
 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 - @g_4_q
 
 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 - @N1FURY
 
-𝗿𝗲𝗹𝗲𝗮𝘀𝗲  :  1.1
+𝗿𝗲𝗹𝗲𝗮𝘀𝗲  :  1.6
 
-𝘁𝗵𝗮𝗻𝗸 𝘆𝗼𝘂 𝗳𝗼𝗿 𝘀𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗶𝗻𝗴  🐉
-
-''')
+𝘁𝗵𝗮𝗻𝗸 𝘆𝗼𝘂 𝗳𝗼𝗿 𝘀𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗶𝗻𝗴  🐉''')
 
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.م1"))
