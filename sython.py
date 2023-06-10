@@ -78,7 +78,7 @@ async def _(event):
 
     start = datetime.datetime.now() 
 
-    awaawaawait sedthon.send_file(event. chat_id, 'https://t.me/yyyyyy3w/4', caption='''
+    await sedthon.send_file(event. chat_id, 'https://t.me/yyyyyy3w/4', caption='''
 
 𝐅𝐔𝐑𝐘 𝐂𝐇𝐄𝐂𝐊𝐄𝐑 𝐈𝐒 𝐖𝐎𝐑𝐊𝐈𝐍𝐆 
 
