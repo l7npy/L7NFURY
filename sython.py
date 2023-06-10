@@ -76,19 +76,17 @@ async def _(event):
 
 async def _(event):
 
-    
+    start = datetime.datetime.now() 
 
-    await sython.send_file(event. chat_id, 'https://t.me/yyyyyy3w/3', caption='''
+    awaawaawait sedthon.send_file(event. chat_id, 'https://t.me/yyyyyy3w/4', caption='''
 
-FURY Checker is Working 
+𝐅𝐔𝐑𝐘 𝐂𝐇𝐄𝐂𝐊𝐄𝐑 𝐈𝐒 𝐖𝐎𝐑𝐊𝐈𝐍𝐆 
 
-Develpoer - @g_4_q
+𝐂𝐇𝐀𝐍𝐍𝐄𝐋  - @N1FURY
 
-Channel  - @N1FURY
+𝐑𝐄𝐋𝐄𝐀𝐒𝐄  :  1.1
 
-Release  :  1.1
-
-Than You For Subscribing  🐉''')
+𝐓𝐇𝐀𝐍𝐊 𝐘𝐎𝐔 𝐅𝐎𝐑 𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐁𝐈𝐍𝐆  🐉''')
 
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.م1"))
