@@ -73,12 +73,12 @@ async def _(event):
     await event.edit(commands)
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.فحص"))
+
 async def _(event):
-    start = datetime.datetime.now()
-    await event.edit("جارٍ...")
-    end = datetime.datetime.now()
-    ms = (end - start).microseconds / 1000
-    await event.edit(event. chat_id, 'https://t.me/yyyyyy3w/3', caption='''FURY 𝗰𝗵𝗲𝗰𝗸𝗲𝗿 𝗶𝘀 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 
+
+    
+
+    await sython.send_file(event. chat_id, 'https://t.me/yyyyyy3w/3', caption='''𝘁𝗲𝘁𝗵𝗼𝗻 𝗰𝗵𝗲𝗰𝗸𝗲𝗿 𝗶𝘀 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 
 
 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 - @g_4_q
 
