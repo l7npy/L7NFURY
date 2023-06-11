@@ -68,25 +68,29 @@ async def join_channel():
 
 
 
-@sython.on(events.NewMessage(outgoing=True, pattern=r"\.الاوامر"))
-async def _(event):
-    await event.edit(commands)
-
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.فحص"))
+
 async def _(event):
+    
     start = datetime.datetime.now()
+
     await event.edit("جارٍ...")
+
     end = datetime.datetime.now()
+
     ms = (end - start).microseconds / 1000
-    await sedthon.send_file(event. chat_id, 'https://t.me/yyyyyy3w/4', caption='''
 
-𝐅𝐔𝐑𝐘 𝐂𝐇𝐄𝐂𝐊𝐄𝐑 𝐈𝐒 𝐖𝐎𝐑𝐊𝐈𝐍𝐆 
+    await event.edit(f'''
 
-𝐂𝐇𝐀𝐍𝐍𝐄𝐋  - @N1FURY
+𝗙𝗨𝗥𝗬 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 𝗜𝗦 𝗪𝗢𝗥𝗞𝗜𝗡𝗚 
 
-𝐑𝐄𝐋𝐄𝐀𝐒𝐄  :  1.1
+𝗖𝗛𝗮𝗡𝗡𝗘𝗟  - @N1FURY
 
-𝐓𝐇𝐀𝐍𝐊 𝐘𝐎𝐔 𝐅𝐎𝐑 𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐁𝐈𝐍𝐆  🐉''')
+𝗥𝗘𝗟𝗘𝗮𝗦𝗘  :  1.1
+
+𝗧𝗛𝗮𝗡𝗞 𝗬𝗢𝗨 𝗙𝗢𝗥 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗜𝗡𝗚  🐉
+
+''')
 
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.م1"))
