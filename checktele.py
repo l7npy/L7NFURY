@@ -283,17 +283,14 @@ async def _(event):
                 try:
                     await sython(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
-                    await event.client.send_message(event.chat_id, f'''
-⌲  ɴᴇᴡ ᴜsᴇʀ ᴛᴇʟᴇɢʀᴀᴍ
-━━━━━━━━━━━━━━
-⟣ ᴜsᴇʀ   ↬ @{username} ↫
-━━━━━━━━━━━━━━
-꩜ ᴄʟɪᴄᴋs  ↬ 46 ↫
-━━━━━━━━━━━━━━
-⎙ sᴀᴠᴇ  ↬ ᴄʜᴀɴɴᴇʟ↫
-━━━━━━━━━━━━━━
- ◔͜͡◔ ʙʏ › 𝐋7𝐍 «𓆩ᶠᵁᴿᵞ𓆪» ™ |🇮🇶
-    ''')
+                    await turbo.send_file(event.chat_id, 'https://t.me/yyyyyy3w/7', caption=f'''
+•⌯ 𝑇𝐸𝐴𝑀 𝐹𝑈𝑅𝑌 𝐼𝑁 𝑇𝐻𝐸 𝐿𝐸𝐴𝐷 🏅. 
+ - - - - - - - - - - -  
+ •⌯ 𝑈𝑆𝐸𝑅𝑁𝐴𝑀𝐸 : ❲ @{username} ❳‌‌ - 
+ •⌯ 𝑆𝐴𝑉𝐸   : ❲ Channel ❳‌‌ - 
+ •⌯ 𝐶𝐿𝐼𝐶𝐾𝑆 : ❲ 1200 ❳‌‌ - 
+ •⌯ 𝐷𝐸𝑉𝐸𝐿𝑂𝑃𝐸𝑅 : ❲ @g_4_q ⌯ @N1FURY  ❳‌‌ - 
+''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
                     with open("banned.txt", "a") as f:
@@ -347,19 +344,15 @@ async def _(event):
                 if "Available" in isav:
                     try:
                         await sython(functions.channels.UpdateUsernameRequest(
-                            channel=ch, username=username))
-                        await event.client.send_message(event.chat_id, f'''
-⌲  ɴᴇᴡ ᴜsᴇʀ ᴛᴇʟᴇɢʀᴀᴍ
-━━━━━━━━━━━━━━
-⟣ ᴜsᴇʀ   ↬ @{username} ↫
-━━━━━━━━━━━━━━
-꩜ ᴄʟɪᴄᴋs  ↬ 46 ↫
-━━━━━━━━━━━━━━
-⎙ sᴀᴠᴇ  ↬ ᴄʜᴀɴɴᴇʟ↫
-━━━━━━━━━━━━━━
- ◔͜͡◔ ʙʏ › 𝐋7𝐍 «𓆩ᶠᵁᴿᵞ𓆪» ™ |🇮🇶
-
-    ''')
+                        channel=ch, username=username))
+                    await syhton.send_file(event.chat_id, 'https://t.me/yyyyyy3w/7', caption=f'''
+•⌯ 𝑇𝐸𝐴𝑀 𝐹𝑈𝑅𝑌 𝐼𝑁 𝑇𝐻𝐸 𝐿𝐸𝐴𝐷 🏅. 
+ - - - - - - - - - - -  
+ •⌯ 𝑈𝑆𝐸𝑅𝑁𝐴𝑀𝐸 : ❲ @{username} ❳‌‌ - 
+ •⌯ 𝑆𝐴𝑉𝐸   : ❲ Channel ❳‌‌ - 
+ •⌯ 𝐶𝐿𝐼𝐶𝐾𝑆 : ❲ 1200 ❳‌‌ - 
+ •⌯ 𝐷𝐸𝑉𝐸𝐿𝑂𝑃𝐸𝑅 : ❲ @g_4_q ⌯ @N1FURY  ❳‌‌ - 
+''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
                         await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
@@ -387,18 +380,15 @@ async def _(event):
             ch = str(msg[1])
             try:
                 await sython(functions.channels.UpdateUsernameRequest(
-                    channel=ch, username=username))
-                await event.client.send_message(event.chat_id, f'''
-⌲  ɴᴇᴡ ᴜsᴇʀ ᴛᴇʟᴇɢʀᴀᴍ
-━━━━━━━━━━━━━━
-⟣ ᴜsᴇʀ   ↬ @{username} ↫
-━━━━━━━━━━━━━━
-꩜ ᴄʟɪᴄᴋs  ↬ 46 ↫
-━━━━━━━━━━━━━━
-⎙ sᴀᴠᴇ  ↬ ᴄʜᴀɴɴᴇʟ↫
-━━━━━━━━━━━━━━
- ◔͜͡◔ ʙʏ › 𝐋7𝐍 «𓆩ᶠᵁᴿᵞ𓆪» ™ |🇮🇶
-    ''')
+                        channel=ch, username=username))
+                    await sython.send_file(event.chat_id, 'https://t.me/yyyyyy3w/7', caption=f'''
+•⌯ 𝑇𝐸𝐴𝑀 𝐹𝑈𝑅𝑌 𝐼𝑁 𝑇𝐻𝐸 𝐿𝐸𝐴𝐷 🏅. 
+ - - - - - - - - - - -  
+ •⌯ 𝑈𝑆𝐸𝑅𝑁𝐴𝑀𝐸 : ❲ @{username} ❳‌‌ - 
+ •⌯ 𝑆𝐴𝑉𝐸   : ❲ Channel ❳‌‌ - 
+ •⌯ 𝐶𝐿𝐼𝐶𝐾𝑆 : ❲ 1200 ❳‌‌ - 
+ •⌯ 𝐷𝐸𝑉𝐸𝐿𝑂𝑃𝐸𝑅 : ❲ @g_4_q ⌯ @N1FURY  ❳‌‌ - 
+''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
             except Exception as eee:
