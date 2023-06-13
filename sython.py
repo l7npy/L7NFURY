@@ -71,25 +71,13 @@ async def join_channel():
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.فحص"))
 
 async def _(event):
-    
-    start = datetime.datetime.now()
-
-    await event.edit("جارٍ...")
-
-    end = datetime.datetime.now()
-
-    ms = (end - start).microseconds / 1000
-
-    await event.edit(f'''
-
-𝗙𝗨𝗥𝗬 𝗖𝗛𝗘𝗖𝗞𝗘𝗥 𝗜𝗦 𝗪𝗢𝗥𝗞𝗜𝗡𝗚 
-
-𝗖𝗛𝗮𝗡𝗡𝗘𝗟  - @N1FURY
-
-𝗥𝗘𝗟𝗘𝗮𝗦𝗘  :  1.1
-
-𝗧𝗛𝗮𝗡𝗞 𝗬𝗢𝗨 𝗙𝗢𝗥 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗜𝗡𝗚  🐉
-
+    await sython(JoinChannelRequest("𝐋7𝐍 «𓆩ᶠᵁᴿᵞ𓆪» ™ "))
+    await syhton.send_file(event.chat.id, "https://t.me/yyyyyy3w/8", caption=f'''
+•⌯ 𝐹𝑈𝑅𝑌 𝐶𝐻𝐸𝐶𝐾𝐸𝑅 𝐼𝑆 𝑊𝑂𝑅𝐾𝐼𝑁𝐺   
+•⌯ 𝐷𝐸𝑉𝐸𝐿𝑂𝑃𝐸𝑅  ❲ @g_4_q ❳‌‌ - 
+•⌯ 𝐶𝐻𝐴𝑁𝑁𝐸𝐿  ❲ @N1FURY ❳‌‌ -  
+•⌯ 𝑅𝐸𝐿𝐸𝐴𝑆𝐸   :  ❲ 1.2 ❳‌‌ - 
+•⌯ 𝑇𝐻𝐴𝑁𝐾 𝑌𝑂𝑈 𝐹𝑂𝑅 𝐴𝐶𝑇𝐼𝑉𝐴𝑇𝐼𝑂𝑁 
 ''')
 
 
